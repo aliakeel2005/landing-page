@@ -40,7 +40,8 @@ font-weight: bold;
 color: #1F2937;
 margin: 20px;}
 .content {display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+margin-bottom: 48px;}
 .info {display: flex;
 flex-direction: column;
 width: 200px;
@@ -48,3 +49,15 @@ align-items: center;}
 
 .icon {height: 100px;
 width: 100px;}
+
+
+.quote {background-color: #E5E7EB;
+height: 40dvh;
+}
+.quote-container {display: flex;
+    justify-content: center;
+    align-items: center;
+height: 200px;}
+.quote1 {width: 400px;}
+.CEO {display: flex;
+justify-content: center;}
