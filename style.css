@@ -3,9 +3,12 @@ margin: 0;
 padding: 0;
 font-family: 'Roboto',sans-serif;
 }
+
+ul {list-style-type: none;}
+
 header {
     background-color: rgb(236, 236, 22);
-    height: 40dvh;
+    height: 45dvh;
 }
 h2 {font-size: 48px;
 font-weight: bold;}
@@ -15,9 +18,11 @@ nav {
     padding: 10px 48px 10px 48px;
     justify-content: space-between;
 }
+.sign-up {background-color: #3882f6;
+border-radius: 5px;
+padding: 3px 10px 3px 10px;}
 .links {
     display: flex;
-    list-style-type: none;
     gap: 5px;
 }
 a {text-decoration: none;}
@@ -28,3 +33,18 @@ a {text-decoration: none;}
 .container {display: flex;
 flex-direction: column;
 width: 300px;}
+.title {display: flex;
+justify-content: center;
+font-size: 36px;
+font-weight: bold;
+color: #1F2937;
+margin: 20px;}
+.content {display: flex;
+justify-content: space-around;}
+.info {display: flex;
+flex-direction: column;
+width: 200px;
+align-items: center;}
+
+.icon {height: 100px;
+width: 100px;}
