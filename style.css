@@ -8,7 +8,7 @@ ul {list-style-type: none;}
 
 header {
     background-color: rgb(236, 236, 22);
-    height: 20em;
+    padding-bottom: 2em;
 }
 h2 {font-size: 48px;
 font-weight: bold;}
